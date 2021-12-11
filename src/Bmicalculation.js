@@ -11,6 +11,12 @@ function Bmicalculation() {
 
     function calculate()
     {
+        
+        if (weight === null && height === null)
+        {
+            return result
+        }
+        
         let bodymassindex = Number(weight / (height / 100) ** 2).toFixed(2);
         setResult(bodymassindex);
 
@@ -21,6 +27,10 @@ function Bmicalculation() {
 
     function display(bodymassindex)
     {
+        if(bodymassindex === null)
+        {
+            reun
+        
         if(bodymassindex<18.5)
         {
             return "Underweight"
@@ -34,6 +44,7 @@ function Bmicalculation() {
             return "Overweight"
         } 
         else return "Obese"
+      
     }
 
     return (
