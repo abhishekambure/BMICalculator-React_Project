@@ -16,13 +16,15 @@ function Bmicalculation() {
         {
             return result
         }
+        else
+        {
         
         let bodymassindex = Number(weight / (height / 100) ** 2).toFixed(2);
         setResult(bodymassindex);
 
         let outputval = display(bodymassindex)
         setStatus(outputval)
-
+        }
     }
 
     function display(bodymassindex)
