@@ -41,7 +41,7 @@ const Bmicalculation = () => {
         {
             return "Overweight"
         } 
-        else return 
+        else
         {
              return "Obese"
         }
