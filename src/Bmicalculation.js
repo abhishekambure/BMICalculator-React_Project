@@ -28,11 +28,7 @@ const Bmicalculation = () => {
     }
 
     function display(bodymassindex)
-    {
-        if(bodymassindex === null)
-        {
-            reun
-        
+    { 
         if(bodymassindex<18.5)
         {
             return "Underweight"
@@ -45,8 +41,10 @@ const Bmicalculation = () => {
         {
             return "Overweight"
         } 
-        else return "Obese"
-      
+        else return 
+        {
+            "Obese"
+        }
     }
 
     return (
@@ -80,6 +78,6 @@ const Bmicalculation = () => {
         </div>
         
     )
-};
+}
 
-export default Bmicalculation;
+export default Bmicalculation
