@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-function Bmicalculation() {
+const Bmicalculation = () => {
 
 
     const [height, setHeight] =useState(null);
@@ -80,6 +80,6 @@ function Bmicalculation() {
         </div>
         
     )
-}
+};
 
 export default Bmicalculation;
