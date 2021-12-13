@@ -82,4 +82,4 @@ function Bmicalculation() {
     )
 }
 
-export default Bmicalculation
+export default Bmicalculation;
